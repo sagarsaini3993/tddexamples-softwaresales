@@ -46,7 +46,7 @@ public class SoftwareSalesTest {
 	public void testBuy100Packages() {
 		SoftwareSales s = new SoftwareSales();
 		double finalPrice = s.calculatePrice(120);
-		assertEquals(3564, finalPrice,0);
+		assertEquals(5940, finalPrice,0);
 	}
 
 }
