@@ -41,5 +41,12 @@ public class SoftwareSalesTest {
 		double finalPrice = s.calculatePrice(60);
 		assertEquals(3564, finalPrice,0);
 	}
+	
+	@Test
+	public void testBuy100Packages() {
+		SoftwareSales s = new SoftwareSales();
+		double finalPrice = s.calculatePrice(120);
+		assertEquals(3564, finalPrice,0);
+	}
 
 }
