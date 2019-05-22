@@ -38,8 +38,8 @@ public class SoftwareSalesTest {
 	@Test
 	public void testBuy50Packages() {
 		SoftwareSales s = new SoftwareSales();
-		double finalPrice = s.calculatePrice(40);
-		assertEquals(2079, finalPrice,0);
+		double finalPrice = s.calculatePrice(60);
+		assertEquals(3564, finalPrice,0);
 	}
 
 }

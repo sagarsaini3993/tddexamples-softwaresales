@@ -14,7 +14,7 @@ public class SoftwareSales {
 		}
 		
 		else if(quantity >= 19 && quantity <= 49) {
-			//20%
+			//30%
 			double subTotal = 99 * quantity;
 			double discount = subTotal * 0.30;
 			double finalTotal = subTotal - discount;
@@ -22,7 +22,7 @@ public class SoftwareSales {
 		}
 		
 		else if(quantity >= 50 && quantity <= 99) {
-			//20%
+			//40%
 			double subTotal = 99 * quantity;
 			double discount = subTotal * 0.40;
 			double finalTotal = subTotal - discount;
