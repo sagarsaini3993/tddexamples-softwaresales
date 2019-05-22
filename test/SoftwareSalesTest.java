@@ -48,7 +48,7 @@ public class SoftwareSalesTest {
 	@Test
 	public void testZeroQuantity() {
 		double finalPrice = s.calculatePrice(0);
-		assertEquals(5940, finalPrice,0);
+		assertEquals(0, finalPrice,0);
 	}
 	
 	
