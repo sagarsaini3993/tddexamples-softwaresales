@@ -29,7 +29,7 @@ public class SoftwareSalesTest {
 	public void testBuy20Packages() {
 		SoftwareSales s = new SoftwareSales();
 		double finalPrice = s.calculatePrice(30);
-		assertEquals(950.4, finalPrice,0);
+		assertEquals(2079, finalPrice,0);
 	}
 	
 
