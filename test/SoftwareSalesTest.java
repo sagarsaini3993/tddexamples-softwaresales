@@ -21,7 +21,7 @@ public class SoftwareSalesTest {
 	@Test
 	public void testBuy10Packages() {
 		SoftwareSales s = new SoftwareSales();
-		double finalPrice = s.calculatePrice(2);
+		double finalPrice = s.calculatePrice(12);
 		assertEquals(950.4, finalPrice,0);
 	}
 	
