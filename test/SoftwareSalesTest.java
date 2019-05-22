@@ -35,5 +35,11 @@ public class SoftwareSalesTest {
 		assertEquals(2079, finalPrice,0);
 	}
 	
+	@Test
+	public void testBuy50Packages() {
+		SoftwareSales s = new SoftwareSales();
+		double finalPrice = s.calculatePrice(40);
+		assertEquals(2079, finalPrice,0);
+	}
 
 }
