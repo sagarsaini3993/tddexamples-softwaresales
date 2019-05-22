@@ -23,30 +23,34 @@ public class SoftwareSalesTest {
 	}
 	@Test
 	public void testBuy10Packages() {
-		SoftwareSales s = new SoftwareSales();
 		double finalPrice = s.calculatePrice(12);
 		assertEquals(950.4, finalPrice,0);
 	}
 	
 	@Test
 	public void testBuy20Packages() {
-		SoftwareSales s = new SoftwareSales();
 		double finalPrice = s.calculatePrice(30);
 		assertEquals(2079, finalPrice,0);
 	}
 	
 	@Test
 	public void testBuy50Packages() {
-		SoftwareSales s = new SoftwareSales();
 		double finalPrice = s.calculatePrice(60);
 		assertEquals(3564, finalPrice,0);
 	}
 	
 	@Test
 	public void testBuy100Packages() {
-		SoftwareSales s = new SoftwareSales();
 		double finalPrice = s.calculatePrice(120);
 		assertEquals(5940, finalPrice,0);
 	}
+	
+	@Test
+	public void testZeroQuantity() {
+		double finalPrice = s.calculatePrice(0);
+		assertEquals(5940, finalPrice,0);
+	}
+	
+	
 
 }

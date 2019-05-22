@@ -28,6 +28,11 @@ public class SoftwareSales {
 			discount = subTotal * 0.50;
 		}
 		
+		else if (quantity < 0) {
+			// invalid input
+			 return -1;
+		}
+		
 		double finalTotal = subTotal - discount;
 		return finalTotal;
 	}
